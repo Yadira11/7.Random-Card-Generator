@@ -1,0 +1,97 @@
+.mainCard {
+    background: green;
+  }
+  
+  .card {
+    width: 400px;
+    height: 600px;
+    background: white;
+    border: 1px solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  #number {
+    margin: 0;
+    position: absolute;
+    font-size: 120px;
+    top: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-54%);
+  }
+  
+
+  .spade::after {
+      position: absolute;
+      font-size: 90px;
+      top: 510px;
+      left: 340px;
+      transform: rotate(180deg);
+    content: "\2660";
+  }
+
+  .spade::before {
+      position: absolute;
+      font-size: 90px;
+    content: "\2665";
+    left: 30px;
+    top: 5px;
+    content: "\2660";
+  }
+
+  .club::after {
+      position: absolute;
+      font-size: 90px;
+      top: 510px;
+      left: 340px;
+      transform: rotate(180deg);
+    content: "\2663";
+  }
+
+  .club::before {
+        position: absolute;
+        font-size: 90px;
+        left: 30px;
+        top: 5px;
+    content: "\2663";
+  }
+
+  .heart::after {
+      position: absolute;
+      color: red;
+      font-size: 90px;
+      top: 510px;
+      left: 340px;
+      transform: rotate(180deg);
+    content: "\2665";
+  }
+
+  .heart::before {
+      position: absolute;
+      color: red;
+      font-size: 90px;
+      left: 30px;
+      top: 5px;
+    content: "\2665";
+  }
+
+  .diamond::before {
+    font-size: 90px;
+    color: red;
+    left: 30px;
+    top: 5px;
+    content: "\2666";
+    position: absolute;
+  }
+
+  .diamond::after {
+      position: absolute;
+      color: red;
+      font-size: 90px;
+      top: 510px;
+      left: 340px;
+      transform: rotate(180deg);
+    content: "\2666";
+  }
